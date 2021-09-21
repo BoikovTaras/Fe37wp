@@ -1,20 +1,24 @@
 {
-  "name": "webpack",
+  "name": "wpbuild",
   "version": "1.0.0",
-  "description": "",
+  "description": "Пробуем настроить вебпак",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BoikovTaras/webpack.git"
+    "url": "git+https://github.com/BoikovTaras/Fe37wp.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/BoikovTaras/webpack/issues"
+    "url": "https://github.com/BoikovTaras/Fe37wp/issues"
   },
-  "homepage": "https://github.com/BoikovTaras/webpack#readme"
+  "homepage": "https://github.com/BoikovTaras/Fe37wp#readme",
+  "devDependencies": {
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0"
+  }
 }
